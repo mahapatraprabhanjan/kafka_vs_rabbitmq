@@ -60,7 +60,7 @@ Design -
 
 SOURCE: https://content.pivotal.io/blog/understanding-when-to-use-rabbitmq-or-apache-kafka
 
-
+![RabbitMQ works](https://content.cdntwrk.com/files/aHViPTYzOTc1JmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVkMGMxMDc2N2IxMmQucG5nJnZlcnNpb249MDAwMCZzaWc9MTliODkyOWEyMWZjMmU5MWI4Nzc5YTEwN2E4MjY4ODc%253D)
 
 Major benefit
 	• Huge number of development platforms supported with ease of use and maturity.
@@ -93,7 +93,7 @@ https://stackoverflow.com/questions/42151544/is-there-any-reason-to-use-rabbitmq
 https://www.cloudamqp.com/blog/2017-12-29-part1-rabbitmq-best-practice.html
 
 NOTE: 
-Horizontal scaling (scale by adding more machines) does not give you a better performance in RabbitMQ. Best performance is received when you do vertical scaling (scale by adding more power). I know this because I have been working with thousands of RabbitMQ clusters for many years now. You can do horizontal scaling in Rabbit, but that means that you also set up clustering between your nodes, which will slow down your setup. I wrote a guide about best practice for high performance vs high availability in RabbitMQ:
+Horizontal scaling (scale by adding more machines) does not give you a better performance in RabbitMQ. Best performance is received when you do vertical scaling (scale by adding more power). You can do horizontal scaling in Rabbit, but that means that you also set up clustering between your nodes, which will slow down your setup. I wrote a guide about best practice for high performance vs high availability in RabbitMQ:
 
 From <https://stackoverflow.com/questions/42151544/is-there-any-reason-to-use-rabbitmq-over-kafka> 
 
