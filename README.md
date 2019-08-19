@@ -10,7 +10,7 @@ Design -
 
 SOURCE: https://content.pivotal.io/blog/understanding-when-to-use-rabbitmq-or-apache-kafka
 
-
+![Kafka Design](https://content.cdntwrk.com/files/aHViPTYzOTc1JmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVkMGMxMTc4ODNkYjgucG5nJnZlcnNpb249MDAwMCZzaWc9YTU1OGJlMWY4YzQwNGI4Zjg0MWJjOGM4Y2M3ZDRjODE%253D)
 
 Major benefit
 	• Kafka scales up to 100,000 messages/sec on a single server
